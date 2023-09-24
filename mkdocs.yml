@@ -7,9 +7,6 @@ extra_css:
 plugins:
   - search
   - mkdocstrings
-  - mkdocs-jupyter:
-      include_source: True
-      include: ["*.ipynb"]
   - social:
       cards_color:
         fill: "#7086DF" 
@@ -24,12 +21,7 @@ theme:
     - content.code.copy
   language: en
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.tracking
     - toc.integrate
-    - navigation.top
-    - navigation.expand
     - search.suggest
     - search.highlight
     - content.tabs.link
