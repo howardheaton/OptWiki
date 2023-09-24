@@ -1,14 +1,16 @@
 ---
 hide:
-  - toc
+  - navigation
 ---
 
 # LASSO
 
 ## Model
 
+This is a test
+
 $$
-    \min_{x \in \mathbb{R}} \|Ax - b\|_2^2 + \lambda \|x\|_1. 
+    \mathsf{\min_{x \in \mathbb{R}} \|Ax - b\|_2^2 + \lambda \|x\|_1. }
 $$
 
 ## Overview
