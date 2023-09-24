@@ -16,15 +16,10 @@ theme:
   name: material 
   palette:
     scheme: default  
-  features:
-    - content.code.annotation
-    - content.code.copy
   language: en
   features:
     - toc.integrate
     - search.suggest
-    - search.highlight
-    - content.tabs.link
     - content.code.annotation
     - content.code.copy  
 
