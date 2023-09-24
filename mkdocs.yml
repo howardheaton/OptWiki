@@ -14,6 +14,9 @@ plugins:
   
 theme:
   name: material 
+  icon:
+    edit: material/pencil 
+    view: material/eye  
   palette:
     scheme: default  
   language: en
@@ -22,6 +25,13 @@ theme:
     - search.suggest
     - content.code.annotation
     - content.code.copy  
+    - content.action.edit    
+
+
+# Github Repo
+repo_name: optwiki
+repo_url: https://github.com/howardheaton/optwiki
+edit_uri: edit/main/docs/
 
 
 extra:    
