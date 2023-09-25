@@ -28,7 +28,18 @@ Convex. Biased.
 
 ## Code
 
-=== "Python"
+=== "CVXPY"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
+=== "SCIP"
 
     ``` c
     #include <stdio.h>
@@ -39,7 +50,7 @@ Convex. Biased.
     }
     ```
 
-=== "Matlab"
+=== "Gurobi"
 
     ``` c++
     #include <iostream>
@@ -49,4 +60,15 @@ Convex. Biased.
       return 0;
     }
     ```
+
+=== "CPLEX"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```    
 
